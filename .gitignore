@@ -1,17 +1,15 @@
-# KiCad backup and temporary files
+# KiCad Lock files (temporary files when KiCad is open)
+*.lck
+~*
+
+# KiCad Backups and local history tracking
 *.bak
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
-*-bak
-*.log
-*.pstat
-*.bck
+_restore_backup_*/
+.history/
 
-# Active cache/lock files
-*-cache.lib
-*.lock
-
-# Output directories (Optional - ignore if you don't want to track manufacturing files)
-/Gerbers/
-/Output/
+# Operating System files
+Thumbs.db
+.DS_Store
