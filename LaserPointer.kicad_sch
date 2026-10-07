@@ -2443,7 +2443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Mylibrary:BatteryHolder_Keystone_1020_1xAAA"
+		(property "Footprint" "Mylibrary:Batt terminal pads"
 			(at 66.04 61.976 90)
 			(hide yes)
 			(show_name no)
